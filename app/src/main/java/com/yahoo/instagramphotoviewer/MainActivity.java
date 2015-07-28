@@ -73,11 +73,14 @@ public class MainActivity extends ActionBarActivity {
                     for (int i = 0; i < photosJSON.length(); i++) {
                         JSONObject photoJSON = photosJSON.getJSONObject(i);
                         InstagramPhoto photo = new InstagramPhoto();
+                        photo.profileImageUrl = photoJSON.getJSONObject("user").getString("profile_picture");
                         photo.username = photoJSON.getJSONObject("user").getString("username");
-                        photo.caption = photoJSON.getJSONObject("caption").getString("text");
+                        photo.postTime = photoJSON.getString("created_time");
                         photo.imageUrl = photoJSON.getJSONObject("images").getJSONObject("standard_resolution").getString("url");
                         photo.imageHeight = photoJSON.getJSONObject("images").getJSONObject("standard_resolution").getInt("height");
                         photo.likesCount = photoJSON.getJSONObject("likes").getInt("count");
+                        photo.caption = photoJSON.getJSONObject("caption").getString("text");
+                        photo.comments = "comments";
 
                         photos.add(photo);
                     }
