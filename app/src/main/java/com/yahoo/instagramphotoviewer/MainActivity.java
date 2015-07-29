@@ -2,7 +2,6 @@ package com.yahoo.instagramphotoviewer;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListView;
@@ -78,6 +77,7 @@ public class MainActivity extends ActionBarActivity {
                         photo.postTime = photoJSON.getString("created_time");
                         photo.imageUrl = photoJSON.getJSONObject("images").getJSONObject("standard_resolution").getString("url");
                         photo.imageHeight = photoJSON.getJSONObject("images").getJSONObject("standard_resolution").getInt("height");
+                        photo.imageWidth = photoJSON.getJSONObject("images").getJSONObject("standard_resolution").getInt("width");
                         photo.likesCount = photoJSON.getJSONObject("likes").getInt("count");
                         photo.caption = photoJSON.getJSONObject("caption").getString("text");
                         photo.comments = "comments";

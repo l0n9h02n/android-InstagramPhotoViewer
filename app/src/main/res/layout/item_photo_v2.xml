@@ -2,7 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
-    <ImageView
+    <com.makeramen.roundedimageview.RoundedImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:riv_corner_radius="30dip"
+        app:riv_border_width="2dip"
+        app:riv_border_color="#ffffff"
+        app:riv_mutate_background="true"
+        app:riv_tile_mode="repeat"
+        app:riv_oval="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/ivProfile"
@@ -17,7 +24,8 @@
         android:id="@+id/tvUsername"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/ivProfile"
-        android:layout_toEndOf="@+id/ivProfile" />
+        android:layout_toEndOf="@+id/ivProfile"
+        android:textColor="@android:color/primary_text_light_nodisable" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -29,14 +37,13 @@
         android:layout_alignParentEnd="true" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:id="@+id/ivPhoto"
         android:layout_below="@+id/ivProfile"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:scaleType="fitXY"
-        android:maxWidth="50dp" />
+        android:scaleType="fitXY" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -45,7 +52,8 @@
         android:id="@+id/tvLikes"
         android:layout_below="@+id/ivPhoto"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/primary_text_light_nodisable" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -54,7 +62,8 @@
         android:id="@+id/tvCaption"
         android:layout_below="@+id/tvLikes"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/secondary_text_light_nodisable" />
 
     <!--TextView
         android:layout_width="wrap_content"
