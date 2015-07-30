@@ -1,5 +1,6 @@
 package com.yahoo.instagramphotoviewer;
 
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -19,6 +20,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends ActionBarActivity {
 
+    // private SwipeRefreshLayout swipeContainer;
     public static final String CLIENT_ID = "0f4b8d035ced41df8dbba1aa5d26c741";
     private ArrayList<InstagramPhoto> photos;
     private InstagramPhotosAdapter aPhotos;
@@ -34,6 +36,19 @@ public class MainActivity extends ActionBarActivity {
         lvPhotos.setAdapter(aPhotos);
 
         fetchPopularPhotos();
+        /*
+        swipeContainer = (SwipeRefreshLayout) findViewById(R.id.swipeCotainer);
+        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                fetchPopularPhotos();
+            }
+        });
+        swipeContainer.setColorSchemeResources(android.R.color.holo_blue_bright,
+                android.R.color.holo_green_light,
+                android.R.color.holo_orange_light,
+                android.R.color.holo_red_light);
+        */
     }
 
     @Override
@@ -89,6 +104,7 @@ public class MainActivity extends ActionBarActivity {
                 }
 
                 aPhotos.notifyDataSetChanged();
+                // swipeContainer.setRefreshing(false);
             }
 
             @Override

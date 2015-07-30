@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/jhkao/OneDrive/eclipse/adt/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jar="/Users/jhkao/OneDrive/Github/android/android-InstagramPhotoViewer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="/Users/jhkao/OneDrive/Github/android/android-InstagramPhotoViewer/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-be1275ad8011eb6f04a635c1524e965b3ac829ee.jar" />
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/jhkao/OneDrive/Github/android/android-InstagramPhotoViewer/app/build/intermediates/pre-dexed/debug/classes-465b2cb229ed79d641c8e46c6f36e74d3b8fdba2.jar" />
     </item>
     <item
         jar="/Users/jhkao/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.8/77bbfe240e437ecb396d982afa0d3bd4f9090ba7/android-async-http-1.4.8.jar"
@@ -16,18 +16,11 @@
         <dex dex="/Users/jhkao/OneDrive/Github/android/android-InstagramPhotoViewer/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.8-984b523e2eac34a6e5561c0d861c04908cc8c158.jar" />
     </item>
     <item
-        jar="/Users/jhkao/OneDrive/Github/android/android-InstagramPhotoViewer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jar="/Users/jhkao/OneDrive/Github/android/android-InstagramPhotoViewer/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="/Users/jhkao/OneDrive/Github/android/android-InstagramPhotoViewer/app/build/intermediates/pre-dexed/debug/classes-465b2cb229ed79d641c8e46c6f36e74d3b8fdba2.jar" />
-    </item>
-    <item
-        jar="/Users/jhkao/OneDrive/Github/android/android-InstagramPhotoViewer/app/build/intermediates/exploded-aar/com.makeramen/roundedimageview/2.1.2/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="2b971772f0be0ab4471ee89069a70ffd6ad24740">
-        <dex dex="/Users/jhkao/OneDrive/Github/android/android-InstagramPhotoViewer/app/build/intermediates/pre-dexed/debug/classes-67a59cd4b05ed94f770573a246c8b7ef1ffcb213.jar" />
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/jhkao/OneDrive/Github/android/android-InstagramPhotoViewer/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-c1280c66c8b1a759409a41ab5d585c67be3c434d.jar" />
     </item>
     <item
         jar="/Users/jhkao/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
@@ -37,18 +30,25 @@
         <dex dex="/Users/jhkao/OneDrive/Github/android/android-InstagramPhotoViewer/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-c4150a6411811ac60fe2e1755e0bc8c143c14e13.jar" />
     </item>
     <item
-        jar="/Users/jhkao/OneDrive/Github/android/android-InstagramPhotoViewer/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jar="/Users/jhkao/OneDrive/Github/android/android-InstagramPhotoViewer/app/build/intermediates/exploded-aar/com.makeramen/roundedimageview/2.1.2/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="/Users/jhkao/OneDrive/Github/android/android-InstagramPhotoViewer/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-6796fdef3d7929f5fc93274e6d0def86138bb383.jar" />
+        sha1="2b971772f0be0ab4471ee89069a70ffd6ad24740">
+        <dex dex="/Users/jhkao/OneDrive/Github/android/android-InstagramPhotoViewer/app/build/intermediates/pre-dexed/debug/classes-67a59cd4b05ed94f770573a246c8b7ef1ffcb213.jar" />
     </item>
     <item
-        jar="/Users/jhkao/OneDrive/Github/android/android-InstagramPhotoViewer/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jar="/Users/jhkao/OneDrive/eclipse/adt/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="/Users/jhkao/OneDrive/Github/android/android-InstagramPhotoViewer/app/build/intermediates/pre-dexed/debug/classes-ec8117a06c8629b1121b756072857ed3cb947b1d.jar" />
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/jhkao/OneDrive/Github/android/android-InstagramPhotoViewer/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-d7e19b55a63aa195139056c46b94b83a688216d1.jar" />
+    </item>
+    <item
+        jar="/Users/jhkao/OneDrive/Github/android/android-InstagramPhotoViewer/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/jhkao/OneDrive/Github/android/android-InstagramPhotoViewer/app/build/intermediates/pre-dexed/debug/classes-ed0193a4f45aeaf332e9bed20bb1bbc47d4a4211.jar" />
     </item>
 
 </items>
